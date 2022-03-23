@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/Bahadurshax/interactive-pricing-card](https://github.com/Bahadurshax/interactive-pricing-card)
-- Live Site URL: [https://interacive-pricing-card.netlify.app/](https://interacive-pricing-card.netlify.app/)
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
 
@@ -33,9 +33,9 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- JavaScript
 
 
 ## Author
 
-- Frontend Mentor - [@Bahadurshax](https://www.frontendmentor.io/profile/Bahadurshax)
+- Website - [Add your name here](https://www.your-site.com)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
