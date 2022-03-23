@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+		<title>Frontend Mentor | Interactive pricing component</title>
+
+		<link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="media.css">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap" rel="stylesheet" />
+	</head>
+
+	<body>
+
+		<header>
+			<h1 class="main-title">Simple, traffic-based pricing</h1>
+			<p class="sub-title">Sign-up for our 30-day trial. No credit card required.</p>
+		</header>
+
+	<main>
+		<div class="pricing-card">
+
+			<div class="card-header">
+				<h1 class="card-title">100k pageviews</h1>
+				<p class="price-text">$<span>16</span>.00 
+					<span class="span-2">/ month</span>
+				</p>
+				<div class="slider-block">
+						<input type="range" step="4" min="0" max="36" value="16" id="slider"/>
+				</div>
+			</div>
+
+			<div class="card-body">
+				<div class="checkbox-block">
+						<p>Monthly Billing</p>
+						<input type="checkbox" id="mycheckbox"/>
+						<p>Yearly Billing <span class="discount-text">25% <span>discount</span></span></p>
+				</div>
+			</div>
+
+			<div class="card-footer">
+				<ul class="advantages-list">
+					<li>Unlimited websites</li>
+					<li>100% data ownership</li>
+					<li>Email reports</li>
+				</ul>
+				<a href="#" class="btn">Start my trial</a>
+			</div>
+		</div>
+	</main>
+
+		<footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://www.frontendmentor.io/profile/Bahadurshax">Bahadur Arzimbetov</a>.
+      </div>
+  	</footer>
+
+		<script src="script.js"></script>
+	</body>
+</html>

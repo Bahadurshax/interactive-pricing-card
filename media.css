@@ -1,0 +1,71 @@
+@media screen and (min-width: 375px) and (max-width: 480px) {
+  header {
+    font-size: 12px;
+  }
+
+  .sub-title {
+    line-height: 20px;
+    font-size: 1.1em;
+  }
+
+  .pricing-card {
+    width: 70%;
+  }
+
+  .card-header {
+    flex-direction: column;
+    font-size: 12px;
+  }
+
+  .card-title {
+    font-weight: 800;
+  }
+
+  .slider-block {
+    order: 1;
+    margin-bottom: 20px;
+  }
+
+  .price-text {
+    order: 2;
+  }
+  .span-2 {
+    font-size: 14px;
+  }
+
+  .card-body {
+    font-size: 12px;
+    margin-top: 30px;
+  }
+
+  .discount-text {
+    margin-left: 5px;
+  }
+  .discount-text span {
+    display: none;
+  }
+
+  .checkbox-block p {
+    margin: 0 5px;
+  }
+
+  .card-footer {
+    flex-direction: column;
+    font-size: 14px;
+  }
+
+  .advantages-list {
+    text-align: center;
+  }
+
+  .btn {
+    margin-top: 30px;
+  }
+
+}
+
+@media screen and (min-width: 1440px) {
+  .pricing-card {
+    width: 32.2%;
+  }
+}
